@@ -1,0 +1,110 @@
+<html>
+<head>
+  <style>
+    body {
+        background-color: rgb(88, 139, 139);
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: flex;
+      grid-gap: 10px;
+      align-items: stretch;
+    }
+    a:link {
+    text-decoration: none;
+    color: white;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 10vh;
+    }
+    button {
+      font-family: Georgia;
+      background-color: rgb(158, 71, 112);
+      padding: 10px;
+      width: 150px;
+      color: white;
+      border-radius: 8px;
+      font-size: 19px;
+      transition-duration: 0.4s;
+    }
+    button:hover {
+      background-color: rgb(216, 191, 216);
+      color: black;
+      border: 2px solid rgb(158, 71, 112);
+    }
+  </style>
+</head>
+<body>
+  <style>
+    h1 {
+      text-align: center;
+      font-family: Trebuchet MS;
+      color: darkslategray;
+    }
+  </style>
+    <h1> Escolha seu destino </h1>
+  <div class="grid-container">
+    <div class="grid-item1"> <a href=PaginaFranca>França</a>
+        <style>
+            .grid-item1 {
+                grid-row: span 10;
+                font-size: 20px;
+                font-family: serif;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                text-align: center;
+                background-image: url(https://user-images.githubusercontent.com/129390680/241592722-9bcb4dee-544b-42f9-a17d-6c6ea559fa88.jpg);
+                background-size: cover;
+                background-repeat: repeat-y;
+                background-position: center;
+            }
+        </style>
+    </div>
+    <div class="grid-item2"> <a href="PaginaInglaterra"> Inglaterra </a>
+      <style>
+        .grid-item2 {
+            grid-row: span 10;
+            font-size: 20px;
+            font-family: serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            background-image: url(https://user-images.githubusercontent.com/129390680/241592735-fc21c56a-680e-4edd-a002-e30310e45977.jpg);
+            background-size: cover;
+            background-repeat: repeat-y;
+            background-position: center;
+        }
+    </style>
+    </div>
+    <div class="grid-item3"><a href="PaginaAlemanha">Alemanha</a>
+      <style>
+        .grid-item3 {
+            grid-row: span 10;
+            font-size: 20px;
+            font-family: serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            background-image: url(https://user-images.githubusercontent.com/129390680/241592741-2061af09-e754-4a75-ab64-2ba7a8f18ceb.jpg);
+            background-size: cover;
+            background-repeat: repeat-y;
+            background-position: center;
+        }
+    </style> 
+    </div>
+    <div class="container">
+      <a href="Pagina1">
+    <button> Volte ao início </a></button>
+  </div>
+
+</body>
+</html>
