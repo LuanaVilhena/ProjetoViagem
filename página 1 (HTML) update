@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+
+    <head id="menu">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> ProjetoViagem </title>
+       <link rel="stylesheet" href="pagina1.css" />
+    </head>
+
+    <body>
+        <header>
+            <section style="color:white">
+                <b> <h1> TripFinder </h1>
+                    <h2>Dicas e Roteiros</h2>
+                    <h3>Quer viajar e não sabe por onde começar? <br> Nós te ajudamos!</h3>
+                </b>
+            </section>
+        </header> 
+
+        <header> <br>
+            <link rel="stylesheet" href="pagina1.css" />
+        </header>
+    
+        <div class="container">
+            <a href="pagina2.html"> <button> <b>Comece aqui </b> </a></button>
+        </div>
+
+    </body>
+
+</html>
