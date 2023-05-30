@@ -36,6 +36,8 @@ h1 {
     text-align: center;
     font-family: Trebuchet MS;
     color: darkslategray;
+    margin-right: auto;
+    margin-left: auto;
 }
 .grid-item1 {
     grid-row: span 10;
@@ -52,8 +54,8 @@ h1 {
     background-position: center;
     width: 150px;
     height: 150px;
-    margin-right: 16cm;
-    margin-left: 16cm;
+    margin-right: auto;
+    margin-left: auto;
 }
 .grid-item2 {
     grid-row: span 10;
@@ -70,8 +72,8 @@ h1 {
     background-position: center;
     width: 150px;
     height: 150px;
-    margin-right: 16cm;
-    margin-left: 16cm;
+    margin-right: auto;
+    margin-left: auto;
 }
 .grid-item3 {
     grid-row: span 10;
@@ -88,6 +90,6 @@ h1 {
     background-position: center;
     width: 150px;
     height: 150px;
-    margin-right: 16cm;
-    margin-left: 16cm;
+    margin-right: auto;
+    margin-left: auto;
 }
