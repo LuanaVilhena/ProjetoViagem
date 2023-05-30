@@ -8,8 +8,12 @@ body {
   align-items: stretch;
 }
 a:link {
-text-decoration: none;
-color: white;
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
 }
 .container {
   display: flex;
