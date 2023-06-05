@@ -19,7 +19,7 @@
           <section id="About" style= "display: flex; height:180px;"> 
           <div style= padding:2px;> </div>
           <img src="https://f.i.uol.com.br/fotografia/2019/05/21/15584836365ce492b47c7c8_1558483636_3x2_rt.jpg" alt="Lugar 1"> </section>
-          <b> <p>Torre eifel, um </p> </b>
+          <b> <p>Torre eifel</p> </b>
         </div>
         <div class="place">
           <div class="place"> </div>
