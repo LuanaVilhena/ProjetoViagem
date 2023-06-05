@@ -5,6 +5,10 @@
           }
           body { background-color: rgb(88,139,139);
           }
+          a:link {
+            text-decoration: none;
+            color:white
+          }
           
          </style> 
       <title>França</title>
