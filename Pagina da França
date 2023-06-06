@@ -8,8 +8,10 @@
           h2 { 
             outline-style: outset; 
             margin:10px;
-            width: 220;
-
+            width: 220;}
+          a:link {
+                  text-decoration: none;
+                  color: white;
           }
          </style> 
       <title>Pais</title>
