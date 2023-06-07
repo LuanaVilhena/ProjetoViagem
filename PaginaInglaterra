@@ -1,0 +1,185 @@
+<html lang="pt-br">
+
+ <head> 
+    <style>
+          .sidenav {
+              height: 100%;
+              width: 120px;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              left: 0;
+              background-color: rgb(158, 71, 112);
+              overflow-x: hidden;
+              padding-top: 20px;
+            }
+          .sidenav a {
+              padding: 6px 8px 6px 16px;
+              text-decoration: none;
+              font-size: 18px;
+              color: white;
+              display: block;
+            }
+          .sidenav a.active {
+              background-color: rgb(88, 139, 139);
+              color: white;
+            }
+          .sidenav a:hover {
+              background-color: rgb(88, 139, 139);
+              color: white;
+            }
+          h1 {
+              background-color: rgb(158, 71, 112); 
+              color:white;
+              justify-content: center;
+              margin-left: 70px;
+              padding: 20px;
+            }        
+          .container {
+            display: flex;
+            align-items: center;
+            outline-style: dashed;
+            outline-color: white;
+            padding: 10px;
+            margin-left: 70px;
+          }
+          img {
+             display: flex;
+             text-align: left;
+             padding:0%;
+             height: 250px;
+             width: 300px;
+             padding: 20px;
+             margin-left: 70px;
+             margin-right: 10px;
+             border: 0;
+          }
+          body {
+             background-color: rgb(88,139,139);
+             padding: 20px;
+             margin-left: 70px;
+          }
+          p {
+            display: flex;
+            text-align: right;
+            padding: 5px;
+            color: white;
+            background-color: rgb(158, 71, 112);
+            font-family: Georgia;
+            font-size: 15px;
+            text-align: justify;
+          }
+          h2 { 
+             margin-left: 70px;
+             width: 220;
+             padding: 20px;
+             font-family: Georgia;
+             font-size: 30px;
+             color:white;
+             text-decoration: dashed;
+             text-decoration-line: underline overline;
+             text-decoration-color: rgb(158, 71, 112);
+             text-decoration-thickness: 8px;
+          }          
+          h3  {
+             color:white;
+             font-family: Georgia;
+             font-size: 25px;
+             text-decoration: underline;
+             text-decoration-color: rgb(158, 71, 112);
+             text-decoration-thickness: 5px;
+             padding: 10px;
+             margin-left: 70px;
+          }
+          a:link {
+             text-decoration: none;
+             color: white;
+          }
+          footer {
+            padding: auto;
+            margin-left: 70px;
+            display: grid; 
+            grid-template-columns: auto auto auto auto; 
+            background-color: rgb(158, 71, 112); 
+            color: white
+          }
+
+         </style> 
+      <title> Inglaterra </title>
+    </head>
+    <header> 
+      <h1> TripFinder </h1>
+    </header>
+      <body>
+        <div class="sidenav">
+          <a href="Pagina1HTML" class="active"> Menu </a>
+          <a href="PaginaInglaterra">Inglaterra</a>
+          <a href="PaginaAlemanha">Alemanha</a>
+          <a href="PaginaFranca">França</a>
+        </div>
+        <h2> Lugares para Visitar </h2>
+
+        <h3> Londres </h3>
+        <div class="container">
+          <img src="https://www.visitbritain.com/sites/default/files/styles/consumer_vertical_hero__1920x1080/public/consumer/paragraphs-bundles/image-banner/london_skyline_vb34141644.jpg?itok=8fKWXKdw" alt="Londres">
+          <p> Londres é a capital inglesa, composta por mais de 8.9 milhões de habitantes.
+            <br> Confira alguns pontos turísticos imperdíveis: 
+            <br> 1. Palácio de Buckingham: é a residência oficial da família real britânica, construído a mais de 300 anos. É possível assistir a Troca da Guarda, onde guardas saem do Palácio St. James e 
+            se juntam a outro time de guardas no Palácio de Buckingham, evento que dura mais ou menos 45 minutos.
+            <br> 2. Tower Bridge: é uma das pontes que liga o Rio Tâmisa. Sua construção terminou em 1894, e ela é famosa por ser levadiça, permitindo a passagem de barcos altos. Hoje em dia é um dos cartões 
+            postais mais famosos da Inglaterra.
+            <br> 3. London Eye: a roda gigante foi inaugurada na passagem do ano de 1999 para 2000, por isso também é conhecida como "Roda do Milênio". Na época de sua inauguração, era a maior roda gigante do 
+            mundo, e sua vista é muito disputada pelos visitantes. 
+        </div>
+          
+        <h3> Liverpool </h3>
+        <div class="container">
+          <img src="https://d4u4h6j8.stackpathcdn.com/wp-content/uploads/2015/09/liverpool.jpg" alt="Liverpool">
+          <p> Liverpool é famosa por ser a cidade de origem dos Beatles.
+            <br> Confira alguns pontos turísticos imperdíveis:
+            <br> 1. Albert Dock: é uma grande contrução em forma de doca e armazéns, aberta em 1846. Hoje ela é cheia de atrações, com uma roda gigantes e diversos bares e restaurantes. 
+            <br> 2. Beatles Story: é um museu que conta a história dos Beatles, narrada pela irmã do John Lennon. O museu já foi visitado e possui exibições de Paul McCartney e George Martin.
+            <br> 3. Estádio do Liverpool Anfield: o Anfield é o estádio do time de futebol Liverpool FC, inaugurado em 1884. O estádio possui capacidade para 45 mil pessoas e é onde ocorre várias 
+            partidas emocionantes por times ingleses.
+          </p>
+        </div>
+        <h3> York </h3>
+        <div class="container">
+          <img src="https://q5e5q6q7.stackpathcdn.com/wp-content/uploads/2017/08/o-que-fazer-em-york.jpg" alt="York">
+          <p> York foi fundada pelos romanos em 71 d.C.
+            <br> Confira alguns pontos turísticos imperdíveis:
+            <br> 1. Clifford's Tower: a torre é a única parte sobrevivente do castelo de York. Em 1990, ocorreu nela o massacre de 150 judeus, o pior acontecimento anti semita da Inglaterra. É possível 
+            visitar o interior da torre, que conta com uma escada para subir ao topo. 
+            <br> 2. York Minster: é a catedral de York, no estilo gótico. É a maior catedral gótica ao Norte da Europa, e também é possível subir na torre, onde terá uma vista do rio Ouse, que corta a cidade.
+            <br> 3. Guy Fawkes: nasceu em York, em uma igrejinha do lado da Catedral. Ele foi um revolucionário que participou da Conspiração da Pólvora, onde ele roubou 36 barris de pólvora para explodir o 
+            Parlamento e matar o rei. Ele foi morto em 5 de novembro de 1605, que hoje é lembrada como Bonfire Night, onde os ingleses acendem fogueiras e fogos de artifícios em comemoração. Ele é reconhecido 
+            por máscaras que foram utilizadas atualmente pelo grupo de hacker Anonymous. 
+          </p>
+        </div>
+        <br>
+      </body>
+
+      <footer>
+      <section><p> <strong> Sobre </strong>
+      <br><ul>
+        <li><a href="C:\Users\luana\OneDrive\Documents\Unipe\Atividade de sala\AplicacoesparaInternet\NossaEquipe">Nossa Equipe</a></li>
+        <li><a href="C:\Users\luana\OneDrive\Documents\Unipe\Atividade de sala\AplicacoesparaInternet\FaleConosco">Fale Conosco</a></li>
+      </ul></p></section>
+      <section> <p> <strong> Referências </strong>
+      <br> <ul>
+        <li><a href="https://www.w3schools.com"> W3 School</a></li>
+        <li><a href="https://www.alura.com"> Alura</a></li>
+      </ul></p></section>
+      <section> <p> <strong> Tutoriais </strong>
+      <br> <ul>
+        <li>Design</li>
+        <li>Marketing</li>
+      </ul></p></section>
+      <section> <p> <strong> Outros Links</strong>
+      <br><ul>
+        <li><a href="https://github.com">GitHub</a></li>
+        <li><a href="https://www.unipe.edu.br">Unipe</a></li>
+      </ul>
+      </p></section>
+      </footer>
+    </html>
