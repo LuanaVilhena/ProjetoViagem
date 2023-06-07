@@ -1,0 +1,186 @@
+<html lang="pt-br">
+
+ <head> 
+    <style>
+          .sidenav {
+              height: 100%;
+              width: 120px;
+              position: fixed;
+              z-index: 1;
+              top: 0;
+              left: 0;
+              background-color: rgb(158, 71, 112);
+              overflow-x: hidden;
+              padding-top: 20px;
+            }
+          .sidenav a {
+              padding: 6px 8px 6px 16px;
+              text-decoration: none;
+              font-size: 18px;
+              color: white;
+              display: block;
+            }
+          .sidenav a.active {
+              background-color: rgb(88, 139, 139);
+              color: white;
+            }
+          .sidenav a:hover {
+              background-color: rgb(88, 139, 139);
+              color: white;
+            }
+          h1 {
+              background-color: rgb(158, 71, 112); 
+              color:white;
+              justify-content: center;
+              margin-left: 70px;
+              padding: 20px;
+            }        
+          .container {
+            display: flex;
+            align-items: center;
+            outline-style: dashed;
+            outline-color: white;
+            padding: 10px;
+            margin-left: 70px;
+          }
+          img {
+             display: flex;
+             text-align: left;
+             padding:0%;
+             height: 250px;
+             width: 300px;
+             padding: 20px;
+             margin-left: 70px;
+             margin-right: 10px;
+             border: 0;
+          }
+          body {
+             background-color: rgb(88,139,139);
+             padding: 20px;
+             margin-left: 70px;
+          }
+          p {
+            display: flex;
+            text-align: right;
+            padding: 5px;
+            color: white;
+            background-color: rgb(158, 71, 112);
+            font-family: Georgia;
+            font-size: 15px;
+            text-align: justify;
+          }
+          h2 { 
+             margin-left: 70px;
+             width: 220;
+             padding: 20px;
+             font-family: Georgia;
+             font-size: 30px;
+             color:white;
+             text-decoration: dashed;
+             text-decoration-line: underline overline;
+             text-decoration-color: rgb(158, 71, 112);
+             text-decoration-thickness: 8px;
+          }          
+          h3  {
+             color:white;
+             font-family: Georgia;
+             font-size: 25px;
+             text-decoration: underline;
+             text-decoration-color: rgb(158, 71, 112);
+             text-decoration-thickness: 5px;
+             padding: 10px;
+             margin-left: 70px;
+          }
+          a:link {
+             text-decoration: none;
+             color: white;
+          }
+          footer {
+            padding: auto;
+            margin-left: 70px;
+            display: grid; 
+            grid-template-columns: auto auto auto auto; 
+            background-color: rgb(158, 71, 112); 
+            color: white
+          }
+
+         </style> 
+      <title> França </title>
+    </head>
+    <header> 
+      <h1> TripFinder </h1>
+    </header>
+      <body>
+        <div class="sidenav">
+          <a href="Pagina1HTML" class="active"> Menu </a>
+          <a href="PaginaInglaterra">Inglaterra</a>
+          <a href="PaginaAlemanha">Alemanha</a>
+          <a href="PaginaFranca">França</a>
+        </div>
+        <h2> Lugares para Visitar </h2>
+
+        <h3> Paris </h3>
+        <div class="container">
+          <img src="https://www.vounajanela.com/wp-content/uploads/2018/10/capa14.jpg" alt="Paris">
+          <p> Paris é a capital francesa, composta por mais de 2.1 milhões de habitantes.
+            <br> Confira alguns pontos turísticos imperdíveis: 
+            <br> 1. Torre Eiffel: a torre é a atração mais famosa da França. Ela está localizada no Champ de Mars e foi construída para a Exposição Universal de Paris em 1889, com o 
+            propósito de ser temporária. Depois que a torre começa a ser utilizada como antena de rádio, Gustave Eiffel consegue estabeleçer sua permanência.
+            <br> 2. Museu do Louvre: localizado no palácio do Louvre, o museu expõe diariamente mais de 35.000 obras. A mais famosa dela, a Monalisa, ficou conhecida depois de ser roubada
+            em 1911, e hoje é o símbolo indiscutível do museu. 
+            <br> 3. Ópera Garnier: é o grande teatro de Paris, contruído por Napoleão III. Não possui um estilo arquitetônico específico, sendo uma mistura de barroco e do renascimento italiano. 
+            A fachada coberta de estátuas de mulheres nuas foi um escândalo para a época. 
+        </div>
+          
+        <h3> Lyon </h3>
+        <div class="container">
+          <img src="https://f7j8i5n9.stackpathcdn.com/wp-content/uploads/2015/09/2-4.jpg" alt="Lyon">
+          <p> Lyon é muitas vezes esquecida pelos turistas, mas merece muito sua visita.
+            <br> Confira alguns pontos turísticos imperdíveis:
+            <br> 1. Velha Lyon: é o centro da cidade de Lyon. Fica localizado na beira do rio Saona, e é toda no estilo arquitetônico gótico, datando da época medieval. 
+            <br> 2. Parque de la Tête d’Or: possui mais de 117 hectares de área, com um cenário de tirar o fôlego. Os visitantes podem ir a um zoológico gratuito ou alugar um barco a remo para 
+            levar ao lago.
+            <br> 3. Basílica Notre Dame de Fourvière: fica na colina de Fourvière, o ponto mais alto da cidade. A Basílica possui diversos painéis coloridos e mosaicos, e as torres dão uma bela 
+            vista para a cidade velha.
+          </p>
+        </div>
+        <h3> Marselha </h3>
+        <div class="container">
+          <img src="https://viagemeturismo.abril.com.br/wp-content/uploads/2016/12/10-9c.jpg" alt="Marselha">
+          <p> Marselha é a cidade mais antiga da França.
+            <br> Confira alguns pontos turísticos imperdíveis:
+            <br> 1. Vieux Port: o velho porto está e funcionamento há 26 séculos, quando a área era uma vila grega. Em 2013, ele foi renovado e hoje tem apresentações diárias e eventos públicos. 
+            Também existem inúmeros bares e restaurantes ao redor. 
+            <br> 2. Château d'If: está situado no arquipélago de Friuli, e foi construído em 1531, para proteger a costa de uma possível invasão. Serviu também como prisão para opositores do governo, 
+            entre 1580 e 1871, e como farol. É onde se passa o romance "O Conde de Monte Cristo", e hoje em dia é um museu.
+            <br> 3. Parque Nacional dos Calanques: foi fundado em 2012, com o objetivo de proteger as espécies marinhas e terrestres da região. O mar azul turquesa e as falésias esculpidas pela água e 
+            pelo vento formam uma vista bastante popular pelos turistas.
+          </p>
+        </div>
+        <br>
+      </body>
+
+      <footer>
+      <section><p> <strong> Sobre </strong>
+      <br><ul>
+        <li><a href="C:\Users\luana\OneDrive\Documents\Unipe\Atividade de sala\AplicacoesparaInternet\NossaEquipe">Nossa Equipe</a></li>
+        <li><a href="C:\Users\luana\OneDrive\Documents\Unipe\Atividade de sala\AplicacoesparaInternet\FaleConosco">Fale Conosco</a></li>
+      </ul></p></section>
+      <section> <p> <strong> Referências </strong>
+      <br> <ul>
+        <li><a href="https://www.w3schools.com"> W3 School</a></li>
+        <li><a href="https://www.alura.com"> Alura</a></li>
+      </ul></p></section>
+      <section> <p> <strong> Tutoriais </strong>
+      <br> <ul>
+        <li>Design</li>
+        <li>Marketing</li>
+      </ul></p></section>
+      <section> <p> <strong> Outros Links</strong>
+      <br><ul>
+        <li><a href="https://github.com">GitHub</a></li>
+        <li><a href="https://www.unipe.edu.br">Unipe</a></li>
+      </ul>
+      </p></section>
+      </footer>
+    </html>
