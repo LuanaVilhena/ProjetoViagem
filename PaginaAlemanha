@@ -11,7 +11,7 @@
               left: 0;
               background-color: rgb(158, 71, 112);
               overflow-x: hidden;
-              padding-top: 20px;
+              padding-top:29px;
             }
           .sidenav a {
               padding: 6px 8px 6px 16px;
@@ -32,8 +32,9 @@
               background-color: rgb(158, 71, 112); 
               color:white;
               justify-content: center;
-              margin-left: 70px;
+              margin-left: 30px;
               padding: 20px;
+              
             }        
           .container {
             display: flex;
@@ -62,7 +63,7 @@
           p {
             display: flex;
             text-align: right;
-            padding: 5px;
+            padding: 20px;
             color: white;
             background-color: rgb(158, 71, 112);
             font-family: Georgia;
@@ -72,22 +73,16 @@
           h2 { 
              margin-left: 70px;
              width: 220;
-             padding: 20px;
+             padding: 10px;
              font-family: Georgia;
-             font-size: 30px;
+             font-size: 35px;
              color:white;
              text-decoration: dashed;
-             text-decoration-line: underline overline;
-             text-decoration-color: rgb(158, 71, 112);
-             text-decoration-thickness: 8px;
-          }          
+          }
           h3  {
              color:white;
              font-family: Georgia;
-             font-size: 25px;
-             text-decoration: underline;
-             text-decoration-color: rgb(158, 71, 112);
-             text-decoration-thickness: 5px;
+             font-size: 40px;                                 
              padding: 10px;
              margin-left: 70px;
           }
