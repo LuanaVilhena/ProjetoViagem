@@ -3,12 +3,12 @@ body{
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
-  }
-  h1 {
+}
+h1 {
     color: rgb(158, 71, 112);
     text-align: left;
     font-size: 30px;
-  }
+}
   h2 {
     color: rgb(92, 158, 173);
     text-align: center;
@@ -52,3 +52,29 @@ body{
         text-decoration: none;
         color: white;
     }
+ .sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(158, 71, 112);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+}
+.sidenav a.active {
+  background-color: rgb(88, 139, 139);
+  color: white;
+}
+.sidenav a:hover {
+  background-color: rgb(88, 139, 139);
+  color: white;
+}
