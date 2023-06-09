@@ -1,0 +1,54 @@
+body{
+    background-image: url("https://user-images.githubusercontent.com/129390680/241574181-78e101ec-908e-4f43-ae6f-9f0e7b2f2908.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+  }
+  h1 {
+    color: rgb(158, 71, 112);
+    text-align: left;
+    font-size: 30px;
+  }
+  h2 {
+    color: rgb(92, 158, 173);
+    text-align: center;
+    font-size: 60px;
+  }
+  h3 {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+  } 
+  p {
+    font-family: Georgia;
+    font-size: 15px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+  button {
+      font-family: Arial;
+      background-color: rgb(158, 71, 112);
+      padding: 10px;
+      width: 150px;
+      color: white;
+      border-radius: 8px;
+      font-size: 20px;
+      transition-duration: 0.4s;
+    }
+    button:hover {
+      background-color: rgb(216, 191, 216);
+      color: black;
+      border: 2px solid rgb(158, 71, 112);
+    }
+    a:link {
+      text-decoration: none;
+      color: white;
+    }
+    a:visited {
+        text-decoration: none;
+        color: white;
+    }
