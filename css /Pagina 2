@@ -123,3 +123,11 @@ h1 {
   background-color: rgb(88, 139, 139);
   color: white;
 }
+footer {
+  padding: auto;
+  margin-left: 70px;
+  display: grid; 
+  grid-template-columns: auto auto auto auto; 
+  background-color: rgb(158, 71, 112); 
+  color: white
+}
