@@ -25,8 +25,7 @@
     color: white;
 }
 h1 {
-    background-color: rgb(158, 71, 112); 
-    color:white;
+    color: rgb(158, 71, 112);
     justify-content: center;
     margin-left: 30px;
     padding: 20px;
