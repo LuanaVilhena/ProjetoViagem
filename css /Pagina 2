@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(88, 139, 139);
+   background-color: rgb(88, 139, 139);
 }
 .grid-container {
   display: grid;
@@ -96,4 +96,30 @@ h1 {
     height: 150px;
     margin-right: auto;
     margin-left: auto;
+}
+.sidenav {
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(158, 71, 112);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+}
+.sidenav a.active {
+  background-color: rgb(88, 139, 139);
+  color: white;
+}
+.sidenav a:hover {
+  background-color: rgb(88, 139, 139);
+  color: white;
 }
