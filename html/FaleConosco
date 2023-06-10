@@ -1,0 +1,136 @@
+<html lang="pt-br">
+    <style>
+        header {
+            background-color: rgb(158, 71, 112);
+            color:white;
+            justify-content: center;
+            margin-left: 20px;
+            padding: 20px;
+        }
+        .sidenav {
+            height: 100%;
+            width: 120px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(158, 71, 112);
+            overflow-x: hidden;
+            padding-top: 20px;
+          }
+          .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+          }
+          .sidenav a.active {
+            background-color: rgb(88, 139, 139);
+            color: white;
+          }
+          .sidenav a:hover {
+            background-color: rgb(88, 139, 139);
+            color: white;
+          }
+          a:link {
+            text-decoration: none;
+            color: white;
+          }
+          a:visited {
+            text-decoration: none;
+            color: white;
+          }
+          body { 
+            background-color: rgb(88, 139, 139);
+            margin-left: 80px;
+          }
+          h2 {
+            width: 220;
+            padding: 10px;
+            margin-left: 20px;
+            font-family: Georgia;
+            font-size: 30px;
+            color:white;
+            text-decoration: dashed;
+            text-decoration-line: underline overline;
+            text-decoration-color: rgb(158, 71, 112);
+            text-decoration-thickness: 8px;
+          }
+          form {
+            margin-left: 20px;
+            padding: 20px;
+            color: white;
+          }
+          label {
+            font-family: Georgia;
+            font-size: 20px;            
+          }
+          p {
+            padding: 10px;
+          }
+          footer {
+            padding: auto;
+            margin-left: 20px;
+            display: grid; 
+            grid-template-columns: auto auto auto auto; 
+            background-color: rgb(158, 71, 112); 
+            color: white
+          }
+    </style>
+    <header>
+        <h1> TripFinder </h1>
+    </header>
+    <body>
+        <div class="sidenav">
+          <a href="Pagina2HTML" class="active"> Menu </a>
+          <a href="PaginaInglaterra">Inglaterra</a>
+          <a href="PaginaAlemanha">Alemanha</a>
+          <a href="PaginaFranca">França</a>
+        </div>
+    <h2> Formulário de contato </h2>
+        <form action="Obrigado" method="get">
+            <p><label> Nome: </label>
+            <input type="text" name="nome" required> </p> <br>
+            <p><label> E-mail: </label>
+            <input type="email" name="nome" required> </p> <br>
+            <p><label> Assunto: </label>
+            <select name="assunto" required>
+                <option value="duvida"> Dúvida </option>
+                <option value="sugestao"> Sugestão </option>
+                <option value="elogio"> Elogio </option>
+            </select> </p> <br>
+            <p><label> Mensagem: </label>
+            <!--input type= "text" name="mensagem"><br-->
+            <textarea name="mensagem" required> </textarea> </p> <br>
+            <p><input type="checkbox" name="Termo" value="Concordo com os termos" required>
+            <label> Concordo com os Termos de Privacidade do Site </label> </p> <br>
+            <input type="submit" value="Enviar Mensagem">
+            <input type="reset" value="Apagar">
+        </form>
+    </body>
+
+    <footer>
+        <section> <p> <strong> Sobre </strong>
+        <br><ul>
+          <li><a href="C:\Users\luana\OneDrive\Documents\Unipe\Atividade de sala\AplicacoesparaInternet\NossaEquipe">Nossa Equipe</a></li>
+          <li><a href="C:\Users\luana\OneDrive\Documents\Unipe\Atividade de sala\AplicacoesparaInternet\FaleConosco">Fale Conosco</a></li>
+        </ul></p></section>
+        <section> <p> <strong> Referências </strong>
+        <br> <ul>
+          <li><a href="https://www.w3schools.com"> W3 School</a></li>
+          <li><a href="https://www.alura.com"> Alura</a></li>
+        </ul></p></section>
+        <section> <p> <strong> Tutoriais </strong>
+        <br> <ul>
+          <li>Design</li>
+          <li>Marketing</li>
+        </ul></p></section>
+        <section> <p> <strong> Outros Links</strong>
+        <br><ul>
+          <li><a href="https://github.com">GitHub</a></li>
+          <li><a href="https://www.unipe.edu.br">Unipe</a></li>
+        </ul>
+        </p></section>
+        </footer>
+</html>
