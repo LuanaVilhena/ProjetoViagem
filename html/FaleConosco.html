@@ -1,8 +1,15 @@
+<!DOCTYPE html>
 <html lang="pt-br">
-    
-    <header>
-        <h1> TripFinder </h1>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fale Conosco</title>
+        <header>
+            <h1> TripFinder </h1>
+        </header>
+        <link rel="stylesheet" href="FaleConosco.css"/>
+    </head>
+
     <body>
         <div class="sidenav">
           <a href="Pagina2HTML" class="active"> Menu </a>
@@ -10,60 +17,76 @@
           <a href="PaginaAlemanha">Alemanha</a>
           <a href="PaginaFranca">França</a>
         </div>
-    <h2> Formulário de contato </h2>
+
+        <h2> Formulário de contato </h2>
+
         <form action="Obrigado" method="get">
-            <p><label> Nome: </label>
-            <input type="text" name="nome" required> </p> <br>
-            <p><label> E-mail: </label>
-            <input type="email" name="nome" required> </p> <br>
-            <p><label> Assunto: </label>
-            <select name="assunto" required>
-                <option value="duvida"> Dúvida </option>
-                <option value="sugestao"> Sugestão </option>
-                <option value="elogio"> Elogio </option>
-            </select> </p> <br>
-            <p><label> Mensagem: </label>
-            <!--input type= "text" name="mensagem"><br-->
-            <textarea name="mensagem" required> </textarea> </p> <br>
-            <p><input type="checkbox" name="Termo" value="Concordo com os termos" required>
-            <label> Concordo com os Termos de Privacidade do Site </label> </p> <br>
+            <p>
+                <label> Nome: </label>
+                <input type="text" name="nome" required> 
+            </p> <br>
+
+            <p>
+                <label> E-mail: </label>
+                <input type="email" name="nome" required> 
+            </p> <br>
+            <p>
+                <label> Assunto: </label>
+                <select name="assunto" required>
+                    <option value="duvida"> Dúvida </option>
+                    <option value="sugestao"> Sugestão </option>
+                    <option value="elogio"> Elogio </option>
+                </select> 
+            </p> <br>
+
+            <p>
+                <label> Mensagem: </label>
+                <!--input type= "text" name="mensagem"><br-->
+                <textarea name="mensagem" required> </textarea> 
+            </p> <br>
+
+            <p>
+                <input type="checkbox" name="Termo" value="Concordo com os termos" required>
+                <label> Concordo com os Termos de Privacidade do Site </label> 
+            </p> <br>
+
             <input type="submit" value="Enviar Mensagem">
             <input type="reset" value="Apagar">
         </form>
     </body>
 
-     <footer>
-      <section>
-          <p> <strong> Sobre </strong> <br>
-              <ul>
-                  <li><a href="C:\Users\luana\OneDrive\Documents\Unipe\Aplicações para Internet\ProjetoViagem\FaleConosco"> Fale Conosco </a></li>
-                  <li><a href="C:\Users\luana\OneDrive\Documents\Unipe\Aplicações para Internet\ProjetoViagem\Pagina1HTML"> Menu </a></li>
-              </ul>
-          </p>
-      </section>
-      <section> 
-          <p> <strong> Compre sua passagem </strong> <br> 
-              <ul>
-                  <li><a href="https://www.decolar.com">Decolar</a></li>
-                  <li><a href="https://www.maxmilhas.com.br/"> Maxmilhas</a></li>
-              </ul>
-          </p>
-      </section>
-      <section> 
-          <p> <strong> Reserve seu hotel </strong> <br> 
-              <ul>
-                  <li><a href="https://www.booking.com"> Booking </a></li>
-                  <li><a href="https://www.trivago.com.br"> Trivago </a></li>
-              </ul>
-          </p>
-      </section>
-      <section> 
-          <p> <strong> Outros Links </strong> <br>
-              <ul>
-                  <li><a href="https://www.viagogo.com/ww/"> Compre ingressos </a></li>
-                  <li><a href="https://123milhas.com/pacotes-de-viagem/"> Crie pacotes de viagem </a></li>
-              </ul>
-          </p>
-      </section>
-  </footer>
+    <footer>
+        <section>
+            <p> <strong> Sobre </strong> <br>
+                <ul>
+                    <li><a href="FaleConosco.html"> Fale Conosco </a></li>
+                    <li><a href="pagina1.html"> Página Inicial</a></li>
+                </ul>
+            </p>
+        </section>
+        <section> 
+            <p> <strong> Compre sua passagem </strong> <br> 
+                <ul>
+                    <li><a href="https://www.decolar.com">Decolar</a></li>
+                    <li><a href="https://www.maxmilhas.com.br/"> Maxmilhas</a></li>
+                </ul>
+            </p>
+        </section>
+        <section> 
+            <p> <strong> Reserve seu hotel </strong> <br> 
+                <ul>
+                    <li><a href="https://www.booking.com"> Booking </a></li>
+                    <li><a href="https://www.trivago.com.br"> Trivago </a></li>
+                </ul>
+            </p>
+        </section>
+        <section> 
+            <p> <strong> Outros Links </strong> <br>
+                <ul>
+                    <li><a href="https://www.viagogo.com/ww/"> Compre ingressos </a></li>
+                    <li><a href="https://123milhas.com/pacotes-de-viagem/"> Crie pacotes de viagem </a></li>
+                </ul>
+            </p>
+        </section>
+    </footer>
 </html>
