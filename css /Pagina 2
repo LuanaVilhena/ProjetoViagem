@@ -133,7 +133,8 @@
         }
         footer {
           padding: auto;
-          margin-left: 100px;
+          margin-left: 120px;
+          text-align: center;
           display: grid; 
           grid-template-columns: auto auto auto auto; 
           background-color: rgb(158, 71, 112); 
